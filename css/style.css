@@ -23,7 +23,7 @@ body {
 main {
     text-align: center;
     padding: 1rem;
-    width: 100%;
+    max-width: 100%;
 }
 p {
     margin-bottom: 1.5rem;
