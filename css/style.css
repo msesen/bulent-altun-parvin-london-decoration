@@ -1,3 +1,14 @@
+.width-100 {
+    max-width: 100%;
+}
+.font-rem2 {
+    font-size: 2rem;
+}
+.mb-1rem {
+    margin-bottom: 1rem;
+}
+
+
 #flags {
     display: flex;
     justify-content: center;
@@ -9,6 +20,7 @@
 }
 main {
     text-align: center;
+    padding: 1rem;
 }
 .videos {
     margin: 0 auto;
@@ -16,4 +28,11 @@ main {
 }
 .videos iframe {
     margin-bottom: 1rem;
+}
+
+/* DESKTOP MEDIA QUERIES */
+@media screen and (min-width: 1280px) {
+    img {
+        max-width: 50%!important;
+    }
 }
