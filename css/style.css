@@ -49,7 +49,7 @@ main {
 li, p {
     margin-bottom: 1.5rem;
     font-size: 1.25rem;
-    text-align: justify;
+    text-align: center;
 }
 .videos {
     margin: 0 auto;
