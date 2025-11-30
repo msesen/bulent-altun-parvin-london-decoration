@@ -81,10 +81,7 @@ ul {
 
 /* DESKTOP MEDIA QUERIES */
 @media screen and (min-width: 1280px) {
-    ul {
-        max-width: 50%;
-    }
-    li, p {
+    p {
         text-align: center;
     }
     img {
