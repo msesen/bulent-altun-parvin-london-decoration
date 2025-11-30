@@ -46,7 +46,7 @@ main {
     padding: 1rem;
     max-width: 100%;
 }
-p {
+li, p {
     margin-bottom: 1.5rem;
     font-size: 1.25rem;
     text-align: justify;
@@ -58,6 +58,9 @@ p {
 .videos iframe {
     margin-bottom: 1rem;
     max-width: 100%;
+}
+li {
+    list-style: none;
 }
 
 /* DESKTOP MEDIA QUERIES */
