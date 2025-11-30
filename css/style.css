@@ -66,6 +66,10 @@ li, p {
 li {
     list-style: none;
 }
+ul.info-list li {
+    list-style: initial;
+    text-align: justify;
+}
 
 /* DESKTOP MEDIA QUERIES */
 @media screen and (min-width: 1280px) {
