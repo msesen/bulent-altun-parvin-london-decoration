@@ -10,6 +10,10 @@
     margin-bottom: 1rem;
 }
 
+.mb-2rem {
+    margin-bottom: 2rem;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
