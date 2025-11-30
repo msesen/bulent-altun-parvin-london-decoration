@@ -71,7 +71,11 @@ li {
 }
 ul.info-list li {
     list-style: initial;
-    text-align: justify;
+    text-align: left;
+}
+ul.info-list {
+    list-style: initial;
+    text-align: left;
     border-radius: 2px;
     max-width: 100%;
     border: 1px solid #939393;
