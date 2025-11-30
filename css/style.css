@@ -70,10 +70,17 @@ ul.info-list li {
     list-style: initial;
     text-align: justify;
 }
+ul {
+    max-width: 100%;
+    margin: 0 auto;
+}
 
 /* DESKTOP MEDIA QUERIES */
 @media screen and (min-width: 1280px) {
-    p {
+    ul {
+        max-width: 50%;
+    }
+    li, p {
         text-align: center;
     }
     img {
